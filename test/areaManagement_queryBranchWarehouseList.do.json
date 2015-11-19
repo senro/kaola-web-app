@@ -1,0 +1,24 @@
+{
+  "status": "1",
+  "data": {
+    "content": [
+      {
+        "repoId": 1,
+        "repoName": "二手玫瑰分仓",
+        "stock": "null",
+        "status": "null"
+      },
+      { "repoId": 2, "repoName": "万能青年旅店分仓", "stock": "null", "status": "null" }
+    ],
+    "size": 10,
+    "number": 0,
+    "firstPage": "true",
+    "lastPage": "true",
+    "totalElements": 2,
+    "sort": "null",
+    "numberOfElements": 2,
+    "totalPages": 1
+  },
+  "detail": "请求数据成功!",
+  "key": "3e801f50-10d8-44d7-9ce7-83e57fe582f1"
+}

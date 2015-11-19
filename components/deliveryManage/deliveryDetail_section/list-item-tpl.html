@@ -1,0 +1,19 @@
+<% $.each( content , function(i,item){ %>
+<li class="notDelivery-order-list-item">
+    <strong>
+        <%= item.address %><br/>
+        买家：<%= item.residentMobile %><br/>
+        <%= item.productQuantity %> 份 <%= item.productName %><br/>
+        (<%= item.unit %>)
+    </strong>
+    <p>
+        备注：<%= item.remark %>
+    </p>
+    <div class="tag" data-currentTime="<%= item.currentTime %>" data-receiveTime="<%= item.receiveTime %>">
+        已用时:<br/>
+        <span class="time">
+
+        </span>
+    </div>
+</li>
+<% }) %>

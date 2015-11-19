@@ -1,0 +1,27 @@
+<tr>
+    <td>仓库收货人</td>
+    <td class="textRight">
+        <% $.each( consigneeList , function(i,item){ %>
+            <% if(i!=consigneeList.length-1){ %>
+                <%= decodeURIComponent(item.staffName) %>(<%= item.staffMobile %>)<br/>
+            <% }else{ %>
+                <%= decodeURIComponent(item.staffName) %>(<%= item.staffMobile %>)
+            <% } %>
+        <% }) %>
+    </td>
+</tr>
+
+<tr>
+    <td>负责小区：</td>
+    <td class="textRight">
+        <% $.each( villageList , function(i,item){ %>
+            <% if(i!=villageList.length-1){ %>
+                    <%= item.villageName %><br/>
+            <% }else{ %>
+                    <%= item.villageName %>
+            <% } %>
+        <% }) %>
+
+    </td>
+</tr>
+

@@ -1,0 +1,125 @@
+<section id="areaList_section" data-transition="slideUp">
+    <header>
+        <nav class="left">
+            <a data-icon="user" href="#user_section" data-target="section"></a>
+        </nav>
+        <h1 class="title"></h1>
+        <nav class="right">
+            <a href="#addDelivery_section" class="btn-addDelivery" data-target="section">
+                新增派送员
+            </a>
+        </nav>
+    </header>
+
+    <nav class="header-secondary areaList-tab-wrap">
+        <ul class="control-group areaList-tab">
+            <li class="active">
+                <a href="#warehouse_list" data-target="article" class="areaList-tabBtn active">
+                    分仓管理
+                </a>
+            </li>
+            <li>
+                <a href="#delivery_list" data-target="article" class="areaList-tabBtn">
+                    派送员管理
+                </a>
+            </li>
+            <li>
+                <a href="#areaOrder_list" data-target="article" class="areaList-tabBtn">
+                    片区订单管理
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <article class="warehouse-article active" id="warehouse_list" data-scroll="false">
+        <div class="scrollWrapper">
+            <ul class="list warehouse-list">
+                <!--<li data-icon="next" data-selected="selected">-->
+                    <!--<a href="#warehouseDetail_section" data-target="section">-->
+                        <!--<div class="tag alizarin">库存缺货</div>-->
+                        <!--<strong>三十度分仓</strong>-->
+                    <!--</a>-->
+                <!--</li>-->
+                <!--<li data-icon="next" data-selected="selected">-->
+                    <!--<a href="#warehouseDetail_section" data-target="section">-->
+                        <!--<div class="tag sun-flower">库存紧张</div>-->
+                        <!--<strong>三十度分仓</strong>-->
+                    <!--</a>-->
+                <!--</li>-->
+                <!--<li data-icon="next" data-selected="selected">-->
+                    <!--<a href="#warehouseDetail_section" data-target="section">-->
+                        <!--<div class="tag nephritis">库存正常</div>-->
+                        <!--<strong>三十度分仓</strong>-->
+                    <!--</a>-->
+                <!--</li>-->
+            </ul>
+        </div>
+    </article>
+    <article id="delivery_list" data-scroll="false">
+        <div class="scrollWrapper">
+            <ul class="list delivery-list">
+                <!--<li data-icon="next" data-selected="selected">-->
+                    <!--<a href="#deliveryDetail_section" data-target="section">-->
+                        <!--<strong>-->
+                            <!--黄小厨-->
+                            <!--<span class="strong-sub">三十度分仓</span>-->
+                        <!--</strong>-->
+                        <!--<div class="tag alizarin">未派单：3</div>-->
+                    <!--</a>-->
+                <!--</li>-->
+                <!--<li data-icon="next" data-selected="selected">-->
+                    <!--<a href="#deliveryDetail_section" data-target="section">-->
+                        <!--<strong>-->
+                            <!--黄小厨-->
+                            <!--<span class="strong-sub">三十度分仓</span>-->
+                        <!--</strong>-->
+                        <!--<div class="tag alizarin">未派单：3</div>-->
+                    <!--</a>-->
+                <!--</li>-->
+
+            </ul>
+        </div>
+    </article>
+    <article id="areaOrder_list" data-scroll="true">
+        <div class="scrollWrapper">
+            <div class="searchbar grid">
+                <div class="search-input col-4">
+                    <label class="icon search" for="search"></label>
+                    <input type="search" id='search' class="input-search" maxlength="11" placeholder='请输入收件人手机号...'/>
+                </div>
+                <div class="col-1">
+                    <button type="button" class="button button-fill btn-search">搜索</button>
+                </div>
+            </div>
+            <ul class="list areaOrder-list">
+                <!--<li>-->
+                    <!--<strong>-->
+                        <!--XXX小区11号楼2402<br/>-->
+                        <!--买家：13235235235<br/>-->
+                        <!--5 份 陕西猕猴桃陕西猕猴桃<br/>-->
+                        <!--（5个装）-->
+                    <!--</strong>-->
+                    <!--<a class="button tag emerland" href="#">-->
+                       <!--确认送达-->
+                    <!--</a>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<strong>-->
+                        <!--XXX小区11号楼2402<br/>-->
+                        <!--买家：13235235235<br/>-->
+                        <!--5 份 陕西猕猴桃陕西猕猴桃<br/>-->
+                        <!--（5个装）-->
+                    <!--</strong>-->
+                    <!--<p>-->
+                        <!--备注：要熟一点的，晚上16点之后再派送-->
+                    <!--</p>-->
+                    <!--<a class="button tag emerland btn-confirm-delivery" href="#">-->
+                        <!--确认送达-->
+                    <!--</a>-->
+                <!--</li>-->
+
+            </ul>
+        </div>
+    </article>
+</section>
+<link rel="stylesheet" href="areaList_section.css">

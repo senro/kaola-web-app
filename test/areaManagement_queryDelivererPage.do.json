@@ -1,0 +1,33 @@
+{
+  "status": "1",
+  "data": {
+    "content": [
+      {
+        "staffId": 1,
+        "repoId": 1,
+        "repoName": "二手玫瑰分仓",
+        "staffName": "姚澜",
+        "staffMobile": "13122220325",
+        "deliveryCount": 1
+      },
+      {
+        "staffId": 2,
+        "repoId": 1,
+        "repoName": "二手玫瑰分仓",
+        "staffName": "列侬",
+        "staffMobile": "18645057363",
+        "deliveryCount": 0
+      }
+    ],
+    "size": "10",
+    "number": "0",
+    "sort": "null",
+    "numberOfElements": "4",
+    "totalElements": "4",
+    "totalPages": "1",
+    "firstPage": "true",
+    "lastPage": "true"
+  },
+  "detail": "请求数据成功!",
+  "key": "null"
+}

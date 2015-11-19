@@ -1,0 +1,21 @@
+{
+  "name": "wn-controlpop",
+  "version": "0.0.4",
+  "description": "控制弹窗",
+  "keywords": [
+    "wn-controlpop",
+    "控制弹窗"
+  ],
+  "homepage": "",
+  "author": "snail-team",
+  "spm": {
+    "main": "",
+    "type": "js",
+    "dependencies": {
+      "wn-core": "0.0.4"
+    },
+    "devDependencies": {
+      "expect.js": "0.3.1"
+    }
+  }
+}

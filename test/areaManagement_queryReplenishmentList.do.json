@@ -1,0 +1,97 @@
+{
+  "status": "1",
+  "data": {
+    "supplementDetails": [
+      {
+        "repoId": 1049937889,
+        "supplyRecordId": 1050153104,
+        "isEmergency": 0,
+        "status": 1,
+        "detailsList": [
+          {
+            "goodsId": 10491259025,
+            "goodsName": "12317呼玛一村",
+            "unit": "个",
+            "residue": -3,
+            "supplement": 22,
+            "repoId": null,
+            "goodsStatus": 1,
+            "sumSupplement": null,
+            "isEmergency": null,
+            "surplusStock": 98,
+            "supplyRecordId": 1050153104
+          }
+        ],
+        "sumSupplement": 22
+      },
+      {
+        "repoId": 1049937889,
+        "supplyRecordId": 1050153105,
+        "isEmergency": 0,
+        "status": 1,
+        "detailsList": [
+          {
+            "goodsId": 10491259025,
+            "goodsName": "12317呼玛一村",
+            "unit": "个",
+            "residue": -3,
+            "supplement": 22,
+            "repoId": null,
+            "goodsStatus": 1,
+            "sumSupplement": null,
+            "isEmergency": null,
+            "surplusStock": 98,
+            "supplyRecordId": 1050153105
+          }
+        ],
+        "sumSupplement": 22
+      },
+      {
+        "repoId": 1049937889,
+        "supplyRecordId": 1050153106,
+        "isEmergency": 1,
+        "status": 1,
+        "detailsList": [
+          {
+            "goodsId": 10491259025,
+            "goodsName": "12317呼玛一村",
+            "unit": "个",
+            "residue": -3,
+            "supplement": 17,
+            "repoId": null,
+            "goodsStatus": 1,
+            "sumSupplement": null,
+            "isEmergency": null,
+            "surplusStock": 98,
+            "supplyRecordId": 1050153106
+          }
+        ],
+        "sumSupplement": 17
+      },
+      {
+        "repoId": 1049937889,
+        "supplyRecordId": 1050153107,
+        "isEmergency": 1,
+        "status": 1,
+        "detailsList": [
+          {
+            "goodsId": 10491259025,
+            "goodsName": "12317呼玛一村",
+            "unit": "个",
+            "residue": -3,
+            "supplement": 17,
+            "repoId": null,
+            "goodsStatus": 1,
+            "sumSupplement": null,
+            "isEmergency": null,
+            "surplusStock": 98,
+            "supplyRecordId": 1050153107
+          }
+        ],
+        "sumSupplement": 17
+      }
+    ]
+  },
+  "detail": "请求数据成功!",
+  "key": "3e801f50-10d8-44d7-9ce7-83e57fe582f1"
+}

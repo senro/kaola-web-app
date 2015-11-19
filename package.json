@@ -1,0 +1,35 @@
+{
+  "name": "kaola-webapp",
+  "version": "0.0.1",
+  "description": "kaola webapp template",
+  "keywords": [
+    "kaola",
+    "webapp",
+    "kaola webapp"
+  ],
+  "author": "kaola-team <passtom@foxmail.com>",
+  "homepage": "https://github.com/kaola-team/kaola-webapp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaola-team/kaola-webapp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kaola-team/kaola-webapp/issues"
+  },
+  "license": "MIT",
+  "spm": {
+    "dependencies": {
+      "jquery": "1.11.3",
+      "cookie": "0.0.2",
+      "date-extend": "1.8.3",
+      "get-query-string": "1.8.3",
+      "hw-checkbox": "0.0.2",
+      "hw-radio": "0.0.3",
+      "iscroll": "1.8.3",
+      "jingle": "1.8.3",
+      "signal": "1.8.3",
+      "template": "1.8.3"
+    },
+    "ignore": ["dist"]
+  }
+}

@@ -1,0 +1,69 @@
+/**
+ * Created with PhpStorm.
+ * User: Administrator
+ * Date: 2015/10/27
+ * Time: 17:26
+ * To change this template use File | Settings | File Templates.
+ */
+#deliveryDetail_section .deliveryDetail_article{
+    overflow-y: scroll !important;
+    -webkit-overflow-scrolling: touch;
+}
+#deliveryDetail_section .delivery-detail{
+    padding: 0 0 10px 0;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    text-align: left;
+    margin: 0 0 0 0;
+}
+#deliveryDetail_section .delivery-detail-tit{
+    padding:10px 0 10px 0;
+    /* border-top: 1px solid rgba(0, 0, 0, .1); */
+    text-align: left;
+    text-indent:10px;
+}
+
+#deliveryDetail_section .deliveryInfo{
+    padding: 10px;
+}
+#deliveryDetail_section .deliveryInfo-table{
+    width: 100%;
+}
+#deliveryDetail_section .deliveryInfo-table td{
+    height: 30px;
+    line-height: 30px;
+}
+#deliveryDetail_section .list>li{
+    padding: 15px 10px 15px 10px;
+}
+#deliveryDetail_section .list>li strong{
+    display:block;
+    width:68%;
+    font-size: 0.9em;
+}
+#deliveryDetail_section .list>li p{
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    margin: 5px 0 0 0;
+}
+#deliveryDetail_section .list>li .tag{
+    top: 31px;
+    background-color: transparent;
+    color: #000;
+}
+#deliveryDetail_section .list>li > .icon{
+    top: 45px;
+}
+.area{
+    padding: 10px;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+}
+.area-tit{
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+}
+.bottomHeight{
+    height: 50px;
+}
+.urgent{
+    color: red !important;
+}

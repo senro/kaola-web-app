@@ -1,0 +1,29 @@
+<% $.each( content , function(i,item){ %>
+<li class="areaList-item">
+    <strong>
+        <%= item.address %><br/>
+        买家：<%= item.residentMobile %><br/>
+        <%= item.productQuantity %> 份 <%= item.productName %><br/>
+        (<%= item.unit %>)
+    </strong>
+    <p class="textLeft">
+        备注：<%= item.remark %>
+    </p>
+    <div class="delivery-status clearfix">
+        <div class="fl">派送情况</div>
+        <div class="fr">
+            <%= item.statusStr %>
+        </div>
+    </div>
+    <% if( item.orderType==1 ){ %>
+        <a class="button tag emerland btn-confirm-delivery" data-deliveryOrderId="<%= item.deliveryOrderId %>" href="#">
+            确认送达
+        </a>
+    <% }else{ %>
+        <a class="button tag emerland btn-confirm-delivery" data-deliveryOrderId="<%= item.deliveryOrderId %>" href="#">
+            自提确认
+        </a>
+    <% } %>
+
+</li>
+<% }) %>

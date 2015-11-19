@@ -1,0 +1,50 @@
+/**
+ * Created with PhpStorm.
+ * User: Administrator
+ * Date: 2015/10/27
+ * Time: 17:26
+ * To change this template use File | Settings | File Templates.
+ */
+#warehouseDetailReplenishment_section article{
+    overflow-y: scroll !important;
+    -webkit-overflow-scrolling: touch;
+}
+#warehouseDetailReplenishment_section .item-detail{
+    display: none;
+    padding: 10px 10px 10px 10px;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    /* text-align: right; */
+    margin: 13px 0 0 0;
+}
+#warehouseDetailReplenishment_section .item-detail-tit{
+    font-weight: bold;
+    padding:10px 0 10px 0;
+    /* border-top: 1px solid rgba(0, 0, 0, .1); */
+    text-align: center;
+}
+#warehouseDetailReplenishment_section .item-detail-table{
+    width: 100%;
+}
+#warehouseDetailReplenishment_section .item-detail .btn-confirm {
+    margin: 10px 0 0 0;
+}
+#warehouseDetailReplenishment_section .item-detail-table td{
+    line-height: 20px;
+}
+#warehouseDetailReplenishment_section .list>li{
+    padding: 15px 10px 15px 10px;
+}
+#warehouseDetailReplenishment_section .list>li strong{
+    padding: 14px 0 14px 0;
+    font-size: 1.0em;
+}
+#warehouseDetailReplenishment_section .list>li .tag{
+    top: 19px;
+    right: 30px;
+}
+#warehouseDetailReplenishment_section .list>li > .icon{
+    top: 27px;
+}
+.urgent{
+    color: red !important;
+}

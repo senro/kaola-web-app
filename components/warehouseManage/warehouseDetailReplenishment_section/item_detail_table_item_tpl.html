@@ -1,0 +1,53 @@
+
+<% $.each( supplementDetails , function(i,item){ %>
+    <li data-selected="selected" class="warehouseDetailReplenishment-list-item">
+        <div class="tag">
+            <% if(item.status==0){ %>
+            已完成
+            <% }else{ %>
+            进行中
+            <% } %>
+        </div>
+        <strong>
+
+            <% if(item.isEmergency==1){ %>
+                <span class="yellow">补货中-加急</span>
+            <% }else{ %>
+                补货中
+            <% } %>
+        </strong>
+        <div class="item-detail">
+            <table class="item-detail-table">
+                <% $.each( item.detailsList , function(i,detailsListItem){ %>
+                <tr>
+                    <td>
+                        <% if(detailsListItem.goodsStatus==0){ %>
+                            <%= detailsListItem.goodsName %> &nbsp;&nbsp;&nbsp;&nbsp;<%= detailsListItem.unit %>
+                        <% }else{ %>
+                            <span class="gray">
+                                <%= detailsListItem.goodsName %> &nbsp;&nbsp;&nbsp;&nbsp;<%= detailsListItem.unit %>
+                                 <br/>【停售】
+                            </span>
+
+                        <% } %>
+                    </td>
+                    <td></td>
+                    <td class="textRight"><%= detailsListItem.supplement %> 份</td>
+                </tr>
+                <% }) %>
+                <tr>
+                    <td class="textRight">商品合计：</td>
+                    <td></td>
+                    <td class="textRight"><%= item.sumSupplement %> 份</td>
+                </tr>
+            </table>
+            <div class="textRight">
+                <a class="button btn-confirm" data-id="<%= item.supplyRecordId %>" href="#">
+                    确认
+                </a>
+            </div>
+
+        </div>
+        <i class="icon next"></i>
+    </li>
+<% }) %>

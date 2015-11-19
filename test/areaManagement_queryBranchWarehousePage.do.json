@@ -1,0 +1,25 @@
+{
+  "status": "1",
+  "data": {
+    "content": [
+      {
+        "repoId": 2,
+        "repoName": "万能青年旅店分仓",
+        "stock": "-2",
+        "status": "库存缺货"
+      },
+      { "repoId": 1, "repoName": "二手玫瑰分仓", "stock": "15", "status": "库存紧张" },
+	  { "repoId": 12, "repoName": "玫瑰分仓", "stock": "", "status": "无商品" }
+    ],
+    "size": 10,
+    "number": 0,
+    "sort": "null",
+    "numberOfElements": 3,
+    "totalElements": 6,
+    "totalPages": 1,
+    "firstPage": "true",
+    "lastPage": "true"
+  },
+  "detail": "请求数据成功!",
+  "key": "12klfnsdlf"
+}

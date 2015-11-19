@@ -1,0 +1,11 @@
+/**
+ * Created with PhpStorm.
+ * User: Administrator
+ * Date: 2015/10/27
+ * Time: 17:26
+ * To change this template use File | Settings | File Templates.
+ */
+#user_section footer a{
+    background-color: #8d8d8d;
+    line-height: 50px;
+}

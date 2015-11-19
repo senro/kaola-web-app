@@ -1,0 +1,21 @@
+{
+  "name": "wn-radio",
+  "version": "0.0.2",
+  "description": "模拟单选框",
+  "keywords": [
+    "wn-radio",
+    "模拟单选框"
+  ],
+  "homepage": "",
+  "author": "snail-team",
+  "spm": {
+    "main": "",
+    "type": "js",
+    "dependencies": {
+      "wn-core": "0.0.4"
+    },
+    "devDependencies": {
+      "expect.js": "0.3.1"
+    }
+  }
+}

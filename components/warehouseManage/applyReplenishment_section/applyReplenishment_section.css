@@ -1,0 +1,48 @@
+/**
+ * Created with PhpStorm.
+ * User: Administrator
+ * Date: 2015/10/27
+ * Time: 17:26
+ * To change this template use File | Settings | File Templates.
+ */
+.applyReplenishment-footer-btn{
+    line-height: 50px;
+}
+.btn-cancel{
+    background-color: red;
+}
+.btn-confirm{
+    background-color: #46CA5E;
+}
+#applyReplenishment_section article{
+    overflow-y: scroll !important;
+    -webkit-overflow-scrolling: touch;
+}
+#applyReplenishment_section .item-detail{
+    padding: 10px;
+}
+#applyReplenishment_section .item-detail-tit{
+    font-weight: bold;
+    padding:0 0 10px 0;
+}
+#applyReplenishment_section .item-detail-table{
+    width: 100%;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    margin: 0 0 10px 0;
+}
+#applyReplenishment_section .item-detail-table td,th{
+    height: 30px;
+    line-height: 30px;
+}
+#applyReplenishment_section .item-detail-form-input{
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+}
+#applyReplenishment_section .textarea{
+    margin: 10px 0 0 0;
+}
+#applyReplenishment_section a.active{
+    background-color: #46CA5E;
+    color: #fff;
+}

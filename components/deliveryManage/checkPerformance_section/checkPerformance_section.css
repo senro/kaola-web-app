@@ -1,0 +1,23 @@
+/**
+ * Created with PhpStorm.
+ * User: Administrator
+ * Date: 2015/10/27
+ * Time: 17:26
+ * To change this template use File | Settings | File Templates.
+ */
+#checkPerformance_section .performance-table{
+    width: 100%;
+}
+#checkPerformance_section .performance-table td{
+    height: 20px;
+    line-height: 20px;
+}
+#checkPerformance_section .scrollWrapper{
+    padding: 10px;
+}
+#checkPerformance_section hr{
+    margin: 10px 0;
+    height: 0;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}

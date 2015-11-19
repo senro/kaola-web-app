@@ -1,0 +1,49 @@
+<section id="addDelivery_section" data-transition="slideUp">
+    <header>
+        <nav class="left">
+            <a href="#" data-icon="undo" class="btn-back" data-target="back">返回</a>
+        </nav>
+        <h1 class="title">新增配送员</h1>
+    </header>
+    <article class="active addDelivery_article" id="addDelivery_article" data-scroll="false">
+
+        <div class="scrollWrapper">
+            <form action="">
+                <div class="input-group">
+                    <input type="number" id="mobile" placeholder="请输入配送员手机号" min="10000000000" max="19999999999" maxlength="11">
+                    <input type="text" id="name" placeholder="请输入配送员姓名">
+                    <div class="input-row">
+                        <label>所属分仓：</label>
+                        <select class="select select-warehouse" id="select-warehouse" name="warehouse">
+                            <option value="0">
+                                仓鼠大本营分仓
+                            </option>
+                            <option value="1">
+                                仓鼠大本营分仓
+                            </option>
+                            <option value="2">
+                                仓鼠大本营分仓
+                            </option>
+                        </select>
+                    </div>
+                    <div class="input-row">
+                        <label>仓库收货人：</label>
+                        <div class="toggle isConnector" id="isConnector" data-on="是" data-off="否" name="isConnector"></div>
+                    </div>
+                    <div class="input-row input-row-authority">
+                        <label>接单权限：</label>
+                        <a class="checkbox button light active" id="isSelfDelivery" href="#">自营派送</a>
+                        <a class="checkbox button light" id="isSelfFetch" href="#">自提</a>
+                        <a class="checkbox button light" id="isActivity" href="#">活动</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <footer class="addDelivery-footer">
+            <a href="#" class="addDelivery-footer-btn btn-confirm">新增派送员帐号</a>
+        </footer>
+
+    </article>
+</section>
+<link rel="stylesheet" href="addDelivery_section.css">

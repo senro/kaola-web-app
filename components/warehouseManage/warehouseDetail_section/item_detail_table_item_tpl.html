@@ -1,0 +1,48 @@
+<% var count=0; %>
+<tr>
+    <th>商品名称</th>
+    <th>今日已售</th>
+    <th class="textRight">库存剩余</th>
+</tr>
+<% $.each( goodsDetails.content , function(i,item){ %>
+    <tr>
+        <td>
+            <% if(item.status==0){ %>
+                <%= item.goodsName %>【<%= item.unit %>】<br/>
+            <% }else{ %>
+                <span class="gray">
+                    <%= item.goodsName %>【<%= item.unit %>】<br/>
+                    【停售】
+                </span>
+
+            <% } %>
+
+        </td>
+        <td class="textCenter"><%= item.todayCount %></td>
+        <td class="textRight">
+            <% if( Number(item.stock) < 0){ %>
+                <span class="red"><%= item.stock %></span>份
+            <% }else{ %>
+                <%= item.stock %>份
+            <% } %>
+        </td>
+    </tr>
+    <% count+=Number(item.stock) %>
+<% }) %>
+<tr>
+    <td class="textRight">商品合计：</td>
+    <td class="textCenter"><%= sumToday %>份</td>
+    <td class="textRight">
+        <%= sumStock %>份
+    </td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td class="textCenter red">
+        <% if(sumOutOfStock && sumOutOfStock<0){ %>
+            缺 <span class="minus"><%= Math.abs(sumOutOfStock) %></span>份
+        <% } %>
+
+    </td>
+</tr>

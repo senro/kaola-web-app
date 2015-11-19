@@ -1,0 +1,67 @@
+*{
+    -webkit-user-select: none;
+}
+body,header,h1{
+    font-family: "Microsoft Yahei", "Helvetica Neue", "Luxi Sans", "DejaVu Sans", "Tahoma", "Hiragino Sans GB", "STHeiti" !important;
+}
+input,textarea{
+    -webkit-user-select: text;
+}
+.noborder{
+    border: 0 !important;
+}
+.textCenter{
+    text-align: center;
+}
+.menuLink{
+    text-align: center;
+}
+#jingle_toast{
+    top: 30%;
+}
+header .title{
+    font-size: 1.0em;
+}
+.cutText{
+    width:65%;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    text-overflow: ellipsis;/* IE/Safari */
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;/* Opera */
+    -moz-binding: url("ellipsis.xml#ellipsis");/*FireFox*/
+}
+.textRight{
+    text-align: right !important;
+}
+.textLeft{
+    text-align: left !important;
+}
+.red{
+    color: red;
+}
+.gray{
+    color: #989898;
+}
+footer{
+    font-size: 1.2em;
+}
+.bottomHeight{
+    height: 50px;
+}
+.urgent{
+    color: red !important;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+input[readonly]{
+    background-color: #cacaca;
+}
+.yellow{
+    color: #ffc335 !important;
+}

@@ -1,0 +1,54 @@
+<% var count=0; %>
+<tr>
+    <th>商品名称</th>
+    <th>库存剩余</th>
+    <th class="textCenter">补货数量</th>
+</tr>
+<% $.each( goodsDetails.content , function(i,item){ %>
+    <tr>
+        <td>
+
+            <% if(item.status==0){ %>
+                <%= item.goodsName %><br/>
+            <% }else{ %>
+                <span class="gray">
+                    <%= item.goodsName %><br/>【停售】
+                </span>
+            <% } %>
+        </td>
+        <td>
+            <% if( Number(item.stock) < 0){ %>
+                <span class="red"><%= item.stock %></span>份
+            <% }else{ %>
+                <%= item.stock %>份
+            <% } %>
+
+        </td>
+        <td class="textCenter">
+            <% if( item.status==1 && item.stock==0){ %>
+                <input class="item-detail-form-input" readonly="true" data-unit="<%= item.unit %>" data-goodsId="<%= item.goodsId %>" name="<%= item.goodsName %>" value="" type="text"/>
+            <% }else if(item.status==1 && item.stock<0){ %>
+                <input class="item-detail-form-input" data-maxNum="<%= Math.abs(item.stock) %>" data-unit="<%= item.unit %>"  data-goodsId="<%= item.goodsId %>" name="<%= item.goodsName %>" value="" type="text"/>
+            <% }else{ %>
+                <input class="item-detail-form-input" data-unit="<%= item.unit %>" data-goodsId="<%= item.goodsId %>" name="<%= item.goodsName %>" value="" type="text"/>
+            <% } %>
+        </td>
+    </tr>
+    <% count+=Number(item.stock) %>
+<% }) %>
+<tr>
+    <td class="textRight">商品合计：</td>
+    <td></td>
+    <td class="textCenter total">
+        <span class="num"><%= sumToday %></span>份
+    </td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td class="textCenter red">
+        <% if( sumOutOfStock && sumOutOfStock<0 ){ %>
+            缺 <span class="minus"><%= Math.abs(sumOutOfStock) %></span>份
+        <% } %>
+    </td>
+</tr>

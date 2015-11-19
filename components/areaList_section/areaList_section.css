@@ -1,0 +1,162 @@
+/**
+ * Created with PhpStorm.
+ * User: Administrator
+ * Date: 2015/10/27
+ * Time: 16:08
+ * To change this template use File | Settings | File Templates.
+ */
+#areaList_section .right a{
+    display: none;
+}
+.header-secondary ~ article{
+    top: 95px;
+}
+#areaList_section .list>li p{
+    text-align: center;
+}
+#areaList_section article{
+    overflow-y: scroll !important;
+    -webkit-overflow-scrolling: touch;
+}
+#areaList_section #areaOrder_list{
+    overflow: hidden !important;
+}
+.areaList-tab-wrap{
+    padding: 5px 0;
+}
+.areaList-tab{
+    margin: 0 auto;
+}
+.areaList-tabBtn{
+    padding: 0 18px;
+}
+#areaList_section .list>li .tag{
+    top: 17px;
+    right:30px;
+}
+#areaList_section .list>li > .icon{
+    top: 24px;
+}
+.area{
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+.area-tit{
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+}
+.urgent{
+    color: red !important;
+}
+#areaList_section .item-detail{
+    margin: 10px 0 0 0;
+    border-top: 1px solid #ccc;
+    text-align: right;
+}
+.item-detail-table{
+    width: 100%;
+    text-align: left;
+    font-size: 14px;
+}
+.item-detail-table td{
+    height: 30px;
+    line-height: 30px;
+}
+.btn-modifyCount{
+
+}
+
+/*搜索框*/
+.searchbar {
+    height: 3.2rem;
+    padding: 8px 0;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+.searchbar .search-input {
+    margin-right: 10px;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.search-input .icon {
+    position: absolute;
+    top: 50%;
+    left: .3rem;
+    font-size: .9rem;
+    color: #b4b4b4;
+    -webkit-transform: translate3D(0, -50%, 0);
+    -ms-transform: translate3D(0, -50%, 0);
+    -o-transform: translate3D(0, -50%, 0);
+    transform: translate3D(0, -50%, 0);
+}
+.searchbar .search-input input {
+    height: 2.0rem;
+    margin: 0;
+    /* float: left; */
+    padding-left: 28px;
+}
+.searchbar .button.button-fill {
+    line-height: 1.35rem;
+    color: #fff;
+    background: #0894ec;
+    border: none;
+}
+/*分仓管理*/
+#warehouse_list .list>li strong{
+    font-size: 1.0em !important;
+}
+/*派送员管理*/
+.strong-sub{
+    color: #adadad;
+    font-size: 0.8em !important;
+}
+#delivery_list .list>li .tag{
+    background-color: transparent !important;
+    color: #000;
+}
+#delivery_list .list>li strong{
+    font-size: 1.0em !important;
+}
+#delivery_list .list>li .strong-sub{
+    font-size: 0.7em !important;
+}
+
+/*片区订单管理*/
+#areaOrder_list .list{
+    padding-top: 3.2rem;;
+}
+#areaOrder_list .list>li{
+    border-bottom: 1px solid rgba(0, 0, 0, .6);
+}
+#areaOrder_list .list>li strong{
+    display:block;
+    width:68%;
+    font-size: 0.9em;
+}
+#areaOrder_list .list>li p{
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    margin: 5px 0 0 0;
+}
+#areaOrder_list .list>li .tag{
+    top: 31px;
+    height: 30px;
+    line-height: 30px;
+    right: 10px;
+}
+#areaOrder_list .list>li > .icon{
+    top: 45px;
+}
+#areaOrder_list .list>li > .delivery-status{
+    font-size: 0.8em;
+}
+

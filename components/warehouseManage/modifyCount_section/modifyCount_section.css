@@ -1,0 +1,39 @@
+/**
+ * Created with PhpStorm.
+ * User: Administrator
+ * Date: 2015/10/27
+ * Time: 17:26
+ * To change this template use File | Settings | File Templates.
+ */
+#modifyCount_section .modifyCount-article{
+    overflow-y: scroll !important;
+}
+.modifyCount-footer-btn{
+    line-height: 50px;
+}
+#modifyCount_section .btn-modify{
+    background-color: #46CA5E;
+}
+#modifyCount_section .item-detail{
+    padding: 10px;
+}
+#modifyCount_section .item-detail-tit{
+    font-weight: bold;
+    padding:0 0 10px 0;
+}
+#modifyCount_section .item-detail-table{
+    width: 100%;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+#modifyCount_section .item-detail-table td,th{
+    height: 20px;
+    line-height: 20px;
+}
+#modifyCount_section .item-detail-form-input{
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+}
+#modifyCount_section .textarea{
+    margin: 10px 0 0 0;
+}

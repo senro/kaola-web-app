@@ -1,0 +1,31 @@
+{
+  "status": "1",
+  "data": {
+    "villageList": [
+      {
+        "repId": 1,
+        "villageName": "斜土路678弄",
+        "villageId": 1237
+      },
+      {
+        "repId": 1,
+        "villageName": "斜土路501弄",
+        "villageId": 1234
+      }
+    ],
+    "consigneeList": [
+      {
+        "staffName": "姚澜",
+        "staffMobile": "13122220325",
+        "repId": 1
+      },
+      {
+        "staffName": "列侬",
+        "staffMobile": "18645057363",
+        "repId": 1
+      }
+    ]
+  },
+  "detail": "请求数据成功!",
+  "key": "null"
+}

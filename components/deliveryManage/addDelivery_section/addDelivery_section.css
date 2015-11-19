@@ -1,0 +1,52 @@
+/**
+ * Created with PhpStorm.
+ * User: Administrator
+ * Date: 2015/10/27
+ * Time: 17:26
+ * To change this template use File | Settings | File Templates.
+ */
+.addDelivery-footer-btn{
+    line-height: 50px;
+}
+.btn-cancel{
+    background-color: red;
+}
+.btn-confirm{
+    background-color: #46CA5E;
+}
+#addDelivery_section .item-detail{
+    padding: 10px;
+}
+#addDelivery_section .item-detail-tit{
+    font-weight: bold;
+    padding:0 0 10px 0;
+}
+#addDelivery_section .item-detail-table{
+    width: 100%;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+#addDelivery_section .item-detail-table td,th{
+    height: 30px;
+    line-height: 30px;
+}
+#addDelivery_section .item-detail-form-input{
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+}
+#addDelivery_section .textarea{
+    margin: 10px 0 0 0;
+}
+#addDelivery_section .input-row label{
+    width: 120px;
+}
+#addDelivery_section .input-row-authority{
+    display: block;
+}
+#addDelivery_section .select-warehouse{
+    margin: 0;
+}
+#addDelivery_section a.active{
+    background-color: #46CA5E;
+    color: #fff;
+}

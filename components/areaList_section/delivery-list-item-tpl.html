@@ -1,0 +1,12 @@
+<% $.each( content , function(i,item){ %>
+    <li data-selected="selected" data-repoId="<%= item.repoId %>" data-staffId="<%= item.staffId %>">
+        <a href="#deliveryDetail_section?staffId=<%= item.staffId %>&repoName=<%= item.repoName %>&repoId=<%= item.repoId %>&staffMobile=<%= item.staffMobile %>&title= <%= decodeURIComponent(item.staffName) %>" data-target="section">
+            <strong>
+                <%= decodeURIComponent(item.staffName) %>
+                <span class="strong-sub"><%= item.repoName %></span>
+            </strong>
+            <div class="tag alizarin">未派单：<%= item.deliveryCount %></div>
+        </a>
+        <i class="icon next"></i>
+    </li>
+<% }) %>

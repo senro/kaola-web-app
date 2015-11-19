@@ -1,0 +1,83 @@
+<table class="performance-table performance-table-today">
+    <tr>
+        <td>
+            今日接单：
+        </td>
+        <td class="textRight">
+            <%= data.todayReceive %>
+            单
+        </td>
+    </tr>
+    <tr>
+        <td>今日派送：</td>
+        <td class="textRight">
+            <%= data.todayDeliver %> 单
+        </td>
+    </tr>
+    <tr>
+        <td>今日去重订单数：</td>
+        <td class="textRight">
+            <%= data.todayOrder %> 单
+        </td>
+    </tr>
+    <tr>
+        <td>派送平均耗时：</td>
+        <td class="time textRight" data-time="<%= data.todayTime %>">
+
+        </td>
+    </tr>
+</table>
+<hr/>
+<table class="performance-table performance-table-month">
+    <tr>
+        <td>本月接单：</td>
+        <td class="textRight">
+            <%= data.monthReceive %> 单
+        </td>
+    </tr>
+    <tr>
+        <td>本月派送：</td>
+        <td class="textRight">
+            <%= data.monthDeliver %> 单
+        </td>
+    </tr>
+    <tr>
+        <td>本月去重订单数：</td>
+        <td class="textRight">
+            <%= data.monthOrder %> 单
+        </td>
+    </tr>
+    <tr>
+        <td>派送平均耗时：</td>
+        <td class="time textRight" data-time="<%= data.monthTime %>">
+
+        </td>
+    </tr>
+</table>
+<hr/>
+<table class="performance-table performance-table-history">
+    <tr>
+        <td>历史接单：</td>
+        <td class="textRight">
+            <%= data.historyReceive %> 单
+        </td>
+    </tr>
+    <tr>
+        <td>历史派送：</td>
+        <td class="textRight">
+            <%= data.historyDeliver %> 单
+        </td>
+    </tr>
+    <tr>
+        <td>历史去重订单数：</td>
+        <td class="textRight">
+            <%= data.historyOrder %> 单
+        </td>
+    </tr>
+    <tr>
+        <td>派送平均耗时：</td>
+        <td class="time textRight" data-time="<%= data.historyTime %>">
+
+        </td>
+    </tr>
+</table>

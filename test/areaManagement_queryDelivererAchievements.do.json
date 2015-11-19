@@ -1,0 +1,19 @@
+{
+  "status": "1",
+  "data": {
+    "historyReceive": 1,
+    "historyDeliver": 1,
+    "historyOrder": 1,
+    "historyTime": 141546454561,
+    "monthReceive": 1,
+    "monthDeliver": 1,
+    "monthOrder": 1,
+    "monthTime": 14145454541,
+    "todayReceive": 0,
+    "todayDeliver": 1,
+    "todayOrder": 1,
+    "todayTime": 1415454451
+  },
+  "detail": "请求数据成功!",
+  "key": "3e801f50-10d8-44d7-9ce7-83e57fe582f1"
+}

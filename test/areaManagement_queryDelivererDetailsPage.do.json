@@ -1,0 +1,30 @@
+{
+ "status": "1",
+ "data": {
+   "content": [
+     {
+       "address": "你说在哪就是哪",
+       "status": 1,
+       "deliveryOrderId": 1,
+       "residentMobile": "1310000222",
+       "productName": "女朋友",
+       "unit": "件",
+       "productQuantity": 1,
+       "receiveTime": 1446025422000,
+       "currentTime":1447025422000,
+       "remark": "悄悄的送",
+       "deliveryCount": 1
+     }
+    ],
+   "size":"10",
+   "number":"0",
+   "sort":"null",
+   "numberOfElements":"4",
+   "totalElements":"4",
+   "totalPages":"1",
+   "firstPage":"true",
+   "lastPage":"true"
+  },
+ "detail": "请求数据成功!",
+ "key":"null"
+}

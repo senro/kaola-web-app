@@ -1,0 +1,29 @@
+<% $.each( content , function(i,item){ %>
+    <li data-selected="selected">
+        <% if (item.stock && item.stock !== '') { %>
+        <a href="#warehouseDetail_section?repoId=<%= item.repoId %>&title=<%= item.repoName %>" data-target="section">
+            <strong> <%= item.repoName %></strong>
+            <% if( item.status=='库存缺货' ){ %>
+                <div class="tag alizarin"><%= item.status %></div>
+            <% }else if( item.status=='库存紧张' ){ %>
+                <div class="tag sun-flower"><%= item.status %></div>
+            <% }else{ %>
+                <div class="tag nephritis"><%= item.status %></div>
+            <% } %>
+
+        </a>
+        <i class="icon next"></i>
+        <% } else { %>
+        <a href="#" data-target="">
+            <strong> <%= item.repoName %></strong>
+            <% if( item.status=='库存缺货' ){ %>
+            <div class="tag alizarin"><%= item.status %></div>
+            <% }else if( item.status=='库存紧张' ){ %>
+            <div class="tag sun-flower"><%= item.status %></div>
+            <% }else{ %>
+            <div class="tag nephritis"><%= item.status %></div>
+            <% } %>
+        </a>
+        <% } %>
+    </li>
+<% }) %>

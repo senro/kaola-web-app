@@ -1,0 +1,83 @@
+/**
+ * Created with PhpStorm.
+ * User: Administrator
+ * Date: 2015/10/27
+ * Time: 17:26
+ * To change this template use File | Settings | File Templates.
+ */
+.warehouseDetail-footer-btn{
+    line-height: 50px;
+}
+#warehouseDetail_section .btn-modify{
+    background-color: red;
+}
+#warehouseDetail_section .btn-apply{
+    background-color: #46CA5E;
+}
+#warehouseDetail_section .right{
+    display: none;
+}
+#warehouseDetail_section .warehouseDetail_article{
+    overflow-y: scroll !important;
+    -webkit-overflow-scrolling: touch;
+}
+#warehouseDetail_section .item-detail{
+    padding: 10px 10px 10px 10px;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    /* text-align: right; */
+    margin: 13px 0 0 0;
+}
+#warehouseDetail_section .item-detail-tit{
+    font-weight: bold;
+    padding:10px 0 10px 0;
+    /* border-top: 1px solid rgba(0, 0, 0, .1); */
+    text-align: center;
+}
+#warehouseDetail_section .item-detail-table{
+    width: 100%;
+}
+#warehouseDetail_section .item-detail-table td,th{
+    height: 30px;
+    line-height: 30px;
+}
+#warehouseDetail_section .item-detail-table td:first-child{
+    max-width: 167px;
+    overflow: hidden;
+}
+#warehouseDetail_section .item-detail-form-input{
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+}
+#warehouseDetail_section .area-info{
+    padding: 10px;
+}
+#warehouseDetail_section .areaInfo-table{
+    width: 100%;
+}
+#warehouseDetail_section .areaInfo-table td{
+    height: 30px;
+    line-height: 30px;
+}
+#warehouseDetail_section .list>li{
+    padding: 15px 10px 15px 10px;
+}
+#warehouseDetail_section .list>li strong{
+    padding: 14px 0 14px 0;
+    font-size: 1.0em;
+}
+#warehouseDetail_section .list>li .tag{
+    top: 19px;
+}
+#warehouseDetail_section .list>li > .icon{
+    top: 27px;
+}
+.area{
+    padding: 10px;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+}
+.area-tit{
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+}

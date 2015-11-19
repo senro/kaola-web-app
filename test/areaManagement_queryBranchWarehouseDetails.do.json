@@ -1,0 +1,59 @@
+{
+  "status": "1",
+  "data": {
+    "sumStock": 6,
+    "goodsDetails": {
+      "content": [
+        {
+          "goodsId": 10481578056,
+          "goodsName": "陕西猕猴桃（需自提）",
+          "unit": "6只",
+          "todayCount": 1,
+          "stock": 0,
+          "status": 0,
+          "repoId": 1,
+          "sumToday": "null",
+          "sumStock": "null",
+          "sumOutOfStock": "null"
+        },
+        {
+          "goodsId": 10415761473,
+          "goodsName": "呼玛一村",
+          "unit": "6只",
+          "todayCount": 1,
+          "stock": -2,
+          "status": 0,
+          "repoId": 1,
+          "sumToday": "null",
+          "sumStock": "null",
+          "sumOutOfStock": "null"
+        },
+        {
+          "goodsId": 10423102206,
+          "goodsName": "考拉",
+          "unit": "6只",
+          "todayCount": 2,
+          "stock": 6,
+          "status": 1,
+          "repoId": 1,
+          "sumToday": "null",
+          "sumStock": "null",
+          "sumOutOfStock": "null"
+        }
+      ],
+      "size": 10,
+      "number": 0,
+      "sort": "null",
+      "totalPages": 1,
+      "firstPage": "true",
+      "lastPage": "true",
+      "numberOfElements": 3,
+      "totalElements": 3
+    },
+    "sumToday": 4,
+    "sumOutOfStock": -2,
+    "supplyCount": 1
+  },
+  "detail": "请求数据成功!",
+  "key": "3e801f50-10d8-44d7-9ce7-83e57fe582f1"
+}

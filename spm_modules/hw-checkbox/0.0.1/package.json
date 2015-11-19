@@ -1,0 +1,21 @@
+{
+  "name": "wn-checkbox",
+  "version": "0.0.1",
+  "description": "模拟多选框",
+  "keywords": [
+    "wn-checkbox",
+    "模拟多选框"
+  ],
+  "homepage": "",
+  "author": "snail-team",
+  "spm": {
+    "main": "",
+    "type": "js",
+    "dependencies": {
+      "jquery": "1.9.1"
+    },
+    "devDependencies": {
+      "expect.js": "0.3.1"
+    }
+  }
+}
