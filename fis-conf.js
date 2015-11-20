@@ -15,7 +15,7 @@ fis.match('/static/lib/*.js', {
 });
 
 fis.match('static/lib/GLOBAL_config.js', {
-    globalVars: { apiHost: env_default_baseUrl, baseUrl: env_default_apiHost},
+    globalVars: { apiHost: env_default_apiHost, baseUrl:env_default_baseUrl },
     parser: fis.plugin('global-vars')
 });
 
