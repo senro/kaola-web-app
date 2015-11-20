@@ -119,14 +119,15 @@ fis
     })
     .match('::packager', {
         postpackager: fis.plugin('loader', {
-            allInOne: {
-                includeAsyncs: true,
-                css: '/pkg/${filepath}_aio.css',
-                js: '/pkg/${filepath}_aio.js',
-                urlCss: env_test_baseUrl + '/pkg/${filepath}_aio.css',
-                urlJs: env_test_baseUrl + '/pkg/${filepath}_aio.js',
-                ignore: ['/static/lib/sea.js']
-            }
+            resoucemapUrl:env_prod_baseUrl+'/pkg/${filepath}_map.js'
+            //allInOne: {
+            //    includeAsyncs: true,
+            //    css: '/pkg/${filepath}_aio.css',
+            //    js: '/pkg/${filepath}_aio.js',
+            //    urlCss: env_test_baseUrl + '/pkg/${filepath}_aio.css',
+            //    urlJs: env_test_baseUrl + '/pkg/${filepath}_aio.js',
+            //    ignore: ['/static/lib/sea.js']
+            //}
         })
     });
 
@@ -158,13 +159,14 @@ fis
     })
     .match('::packager', {
         postpackager: fis.plugin('loader', {
-            allInOne: {
-                includeAsyncs: true,
-                css: '/pkg/${filepath}_aio.css',
-                js: '/pkg/${filepath}_aio.js',
-                urlCss: env_native_baseUrl + '/pkg/${filepath}_aio.css',
-                urlJs: env_native_baseUrl + '/pkg/${filepath}_aio.js',
-                ignore: ['/static/lib/sea.js']
-            }
+            resoucemapUrl:env_prod_baseUrl+'/pkg/${filepath}_map.js'
+            //allInOne: {
+            //    includeAsyncs: true,
+            //    css: '/pkg/${filepath}_aio.css',
+            //    js: '/pkg/${filepath}_aio.js',
+            //    urlCss: env_native_baseUrl + '/pkg/${filepath}_aio.css',
+            //    urlJs: env_native_baseUrl + '/pkg/${filepath}_aio.js',
+            //    ignore: ['/static/lib/sea.js']
+            //}
         })
     });
