@@ -119,7 +119,7 @@ fis
     })
     .match('::packager', {
         postpackager: fis.plugin('loader', {
-            resoucemapUrl:env_prod_baseUrl+'/pkg/${filepath}_map.js'
+            resoucemapUrl:env_test_baseUrl+'/pkg/${filepath}_map.js'
             //allInOne: {
             //    includeAsyncs: true,
             //    css: '/pkg/${filepath}_aio.css',
@@ -159,7 +159,7 @@ fis
     })
     .match('::packager', {
         postpackager: fis.plugin('loader', {
-            resoucemapUrl:env_prod_baseUrl+'/pkg/${filepath}_map.js'
+            resoucemapUrl:env_native_baseUrl+'/pkg/${filepath}_map.js'
             //allInOne: {
             //    includeAsyncs: true,
             //    css: '/pkg/${filepath}_aio.css',
