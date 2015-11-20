@@ -1,2 +1,0 @@
-# wn-core
-wn-core
