@@ -20,15 +20,15 @@
   "spm": {
     "dependencies": {
       "jquery": "1.11.3",
-      "cookie": "0.0.2",
-      "date-extend": "1.8.3",
-      "get-query-string": "1.8.3",
-      "hw-checkbox": "0.0.2",
-      "hw-radio": "0.0.3",
-      "iscroll": "1.8.3",
-      "jingle": "1.8.3",
-      "signal": "1.8.3",
-      "template": "1.8.3"
+      "cookie": "0.0.1",
+      "date-extend": "0.0.1",
+      "get-query-string": "0.0.1",
+      "hw-checkbox": "0.0.1",
+      "hw-radio": "0.0.1",
+      "iscroll": "0.0.1",
+      "jingle": "0.0.1",
+      "signal": "0.0.1",
+      "template": "3.0.0"
     },
     "ignore": ["dist"]
   }
